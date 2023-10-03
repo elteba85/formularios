@@ -1,0 +1,57 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+body {
+    background: linear-gradient(45deg, #652CD1, #121826);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-family: 'Inter', sans-serif;
+}
+div {
+    border: 1px solid #ccc; /* Borde de 1 píxel sólido con color gris claro */
+    border-radius: 15px;
+    padding: 20px; /* Espacio interno de 20 píxeles alrededor del formulario */
+    width: 300px; /* Ancho de la caja del formulario */
+    margin: auto 15px;
+    background-color: #4D5562; /* Color de fondo de la caja */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+.tex{
+    color: #A1A1A9;
+    border-radius: 15px;
+   gap: 5px;
+    margin-top: 35px;
+
+    
+ 
+}
+.tex3 {
+    color: #E5E7EB; /* Color de placeholder personalizado */
+    width: 90%; /* Ancho del campo de entrada al 100% de su contenedor */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #A1A1A9; /* Borde personalizado */
+    background-color: #4D5562; /* Color de fondo */
+    color: #E5E7EB; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Elimina el resplandor de enfoque predeterminado */
+
+}
+.tex2{
+    color: #E5E7EB;
+    margin-top: 35px;
+    margin-bottom: 40px;
+
+}
+.tex22{
+    background-color: #652CD1;
+    border-radius: 35px;
+    margin-left: 25% ;
+    margin-top: 35px;
+    border: 1px solid #4D5562;
+    width: 160px;
+    height: 40px;
+    color:#E5E7EB
+}

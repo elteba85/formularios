@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Register</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+</head>
+<body>
+    <div  class="tex" id="parte1">
+       
+           <label class="tex2"id="title">Register</label><br><br><br>
+           <label >Name:</label><br>
+           <input class="tex3" type="text" id="nombre"  placeholder="Enter your name"><br><br><br><br>
+           <label class="tex">Email:</label><br>
+           <input  class="tex3" type="email" id="email"  placeholder="Enter your email"><br><br>
+           <button  class="tex22"onclick="mostrarParte2()">Continue</button>
+       
+    </div>
+    <div id="parte2" class="hidden" >
+        <h2 class="tex">Which topics you are interested in?</h2>
+        
+            <input type="checkbox" value="opcion1" id="opcion1">Software Development</input>
+            <input type="checkbox" value="opcion2" id="opcion2">User Experience</input>
+            <input type="checkbox" value="opcion3" id="opcion3">Graphic Design</input>
+        
+        <button class="tex22" onclick="mostrarParte3()">Continue</button>
+    </div>
+
+    <div   id="parte3" class="hidden">
+        <h2 class="tex2">Summary</h2>
+        
+        <p><strong class="tex2">Name:</strong> <span  class="tex" id="resumenNombre"></span></p>
+        <p><strong class="tex2">Email:</strong> <span class="tex" id="resumenEmail"></span></p>
+        <p><strong class="tex2">Topics:</strong> <span class="tex"id="resumenOpciones"></span></p>
+        <button class="tex22"  onclick="regresarParte2()">Back</button>
+        <button  class="tex22" onclick="enviarFormulario()">Send</button>
+    </div>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
